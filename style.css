@@ -503,6 +503,10 @@ strong {
     .back-btn {
         left: 0;
     }
+
+    .quadro img {
+        height: 50%;
+    }
 }
 
 @media (max-width: 450px) {

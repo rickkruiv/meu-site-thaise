@@ -223,7 +223,14 @@ main {
 }
 
 footer {
-    height: 200px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h2 {
+    font-size: 3.5rem;
 }
 
 .carrossel-content span {

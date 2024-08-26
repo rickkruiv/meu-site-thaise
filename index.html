@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="images/ghost-svgrepo-com.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/af96f23c39.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <title>Meu Site Profissional</title>
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <h2 onclick="openNav()">
+                <img src="images/ghost-svgrepo-com.png" alt="ghost-svgrepo-com" style="width: 2rem;">
+                MeuSite
+            </h2>
+            <nav id="navbar">
+                <a href="#sobre-mim">Sobre mim</a>
+                <a href="#caracteristicas">Características</a>
+                <a href="#experiencia">Experiência</a>
+                <a href="#quadro-dos-sonhos">Quadro dos sonhos</a>
+            </nav>
+
+            <!-- /* From Uiverse.io by vinodjangid07 */ -->
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox" class="toggle hidden">
+                <div class="bars" id="bar1"></div>
+                <div class="bars" id="bar2"></div>
+                <div class="bars" id="bar3"></div>
+            </label>
+
+            <div class="toggle-switch">
+                <label class="switch-label">
+                    <input type="checkbox" class="checkbox" id="themeSwitch">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="content-container" id="sobre-mim">
+            <div class="about-me-container">
+                <img src="images/h.jpeg" alt="myProfessionalPhoto">
+                <div class="about-me">
+                    <h2>Sobre mim</h2>
+                    <p>
+                        Me chamo Henrique, tenho 18 anos e sou estudante de Análise e Desenvolvendo de Sistemas. Comecei no mundo da programação quando eu fui adm de um servidor de GTA RP e tive que editar alguns mods. Algum tempo depois encontrei o curso de python do Guanabara no Curso em Vídeo e desde o fim do ensino médio venho estudando front end. Atualmente estou estudando SEO para otimizar os motores de busca e melhorar o ranckeamento de sites no Google. Sou apaixonado por carros, e no futuro pretendo montar algum projetinho. Essa paixão por carros começou com o Gran Turismo do PS3.
+                        Sou um moleque mais tranquilo, sossegado e observador. Apesar de ser mais na minha, gosto de uma boa resenha. No tempo livre gosto de jogar com alguns parceiros ou dar um rolezin.  
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-container" id="caracteristicas">
+            <div id="carrossel-container">
+                <div class="carrossel-content">
+                    <div class="title">
+                        <h4>1ª Característica</h4>
+                        <h2>Tranquilo</h2>
+                    </div>
+                    <p>
+                        Independente da situação sempre sou o mais de boa. Tanto em resoluçãoo de problemas, adaptação, pressão e nos meus relacionamentos.
+                    </p>
+                </div>
+
+                <div class="carrossel-content">
+                    <div class="title">
+                        <h4>2ª Característica</h4>
+                        <h2>Detalhista</h2>
+                    </div>
+                    <p>
+                        Enquanto estou desenvolvendo um site, por exemplo, sempre presto atenção nos minimos detalhes. Além da programação, também presto atenção em todos os detalhes quando estou lavando meu carro.
+                    </p>
+                </div>
+
+                <div class="carrossel-content">
+                    <div class="title">
+                        <h4>3ª Característica</h4>
+                        <h2>Reservado</h2>
+                    </div>
+                    <p>
+                        Sou uma pessoa mais reservada, o que me permite focar mais em mim mesmo e no que é meu. Gosto de aproveitar minhas coisas sem me preocupar em impressionar os outros.
+                    </p>
+                </div>
+
+                <div class="carrossel-content">
+                    <div class="title">
+                        <h4>4ª Característica</h4>
+                        <h2>Observador</h2>
+                    </div>
+                    <p>
+                        Complementando minha caracteristica de detalhista, sempre observo as coisas. Um exemplo é nas aulas que eu só presto atenção e não anoto nada, se não, não entendo nada.
+                    </p>
+                </div>
+
+                <div class="carrossel-content">
+                    <div class="title">
+                        <h4>5ª Característica</h4>
+                        <h2>Sinceridade</h2>
+                    </div>
+                    <p>
+                        Sempre falo com sinceridade. Se precisar de algum conselho ou se estiver passando vergonha, vou ser parceiro para te avisar e vou falar a verdade.
+                    </p>
+                </div>
+                <button class="back-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+
+        <div class="content-container" id="experiencia">
+            <div class="experience-container">
+                <h2>Experiência</h2>
+                <div>
+                    <h4>Profissional</h4>
+                    <p>
+                        Já trabalhei por algum tempo como auxiliar adiministrativo em um ecommerce. Atualmente estou fazendo um processo seletivo para fazer parte de uma empresa de tecnologia aqui em Maringá.
+                    </p>
+                </div>
+
+                <div>
+                    <h4>Acadêmica</h4>
+                    <p>
+                        Estou cursando o segundo semestre de Análise e Desenvolvimento de Sistemas na Unicesumar. Além
+                        da faculdade, já fiz e estou fazendo alguns cursos de programação, como: HTML, CSS, Javascript,
+                        React.js e Python.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="content-container" id="quadro-dos-sonhos">
+            <h2>Quadro dos sonhos</h2>
+
+            <div class="quadros-container">
+                <div class="quadro">
+                    <h3>Montar um projetinho</h3>
+                    <img src="images/vectra.png" alt="vectra @mega.vectra">
+                </div>
+    
+                <div class="quadro">
+                    <h3>Rodar o Brasil todo de carro</h3>
+                    <img src="images/viagem-de-carro.png" alt="interna carro estrada">
+                </div>
+    
+                <div class="quadro">
+                    <h3>Viajar pelo mundo</h3>
+                    <img src="images/viagem.jpg" alt="interna carro estrada">
+                </div>
+    
+                <div class="quadro">
+                    <h3>Casa própria</h3>
+                    <img src="images/casa.webp" alt="interna carro estrada">
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>

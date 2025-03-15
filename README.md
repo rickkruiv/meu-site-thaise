@@ -1,4 +1,4 @@
-# Meu Site - Taís
+# Meu Site
 
 Este é o meu site pessoal, desenvolvido como parte de um trabalho de faculdade. Nele, você encontrará informações sobre mim, meus sonhos, características e minhas experiências. O objetivo do projeto é criar uma página web simples e objetiva para compartilhar um pouco da minha trajetória e o que me motiva.
 
